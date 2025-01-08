@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AutomationPractice.iml" filepath="$PROJECT_DIR$/.idea/AutomationPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../API_AUTOMATION/.idea/LPRS_API_AUTOMATION.iml" filepath="$PROJECT_DIR$/../API_AUTOMATION/.idea/LPRS_API_AUTOMATION.iml" />
     </modules>
   </component>
 </project>

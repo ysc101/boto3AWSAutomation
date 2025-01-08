@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4629ffd8-5b1b-4626-bc77-c7bd1d056ba9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AutomationPractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03012025.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIAutomation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateIAMUser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeleteIAMUser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EC2AutomationStart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EC2Stop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileSaveinS3BucketCode1.py" afterDir="false" />
+    <list default="true" id="4629ffd8-5b1b-4626-bc77-c7bd1d056ba9" name="Changes" comment="boto3 Operation for AWS">
+      <change afterPath="$PROJECT_DIR$/06012025.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06012025/AWSCreateIAMUser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AutomationPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutomationPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03012025.py" beforeDir="false" afterPath="$PROJECT_DIR$/03012025.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +26,23 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../API_AUTOMATION" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ysc101&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ysc101/boto3AWSAutomation.git&quot;,
+    &quot;accountId&quot;: &quot;14e13180-c6df-4954-ab41-aceeb287dcc7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2r7DNQCmdDf5Fqmn0bvxWZwMGBJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,6 +51,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.03012025.executor": "Run",
+    "Python.06012025.executor": "Run",
     "Python.APIAutomation.executor": "Run",
     "Python.CreateIAMUser.executor": "Run",
     "Python.DeleteIAMUser.executor": "Run",
@@ -54,11 +62,11 @@
     "Python.s3save1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Yogesh.c/Desktop/My_Data/s3save/s3save1.py"
+    "last_opened_file_path": "C:/Users/Yogesh.c/API_AUTOMATION"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.FileSaveinS3BucketCode1">
-    <configuration name="CreateIAMUser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.APIAutomation">
+    <configuration name="03012025" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CreateIAMUser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03012025.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DeleteIAMUser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="06012025" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,7 +101,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeleteIAMUser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06012025.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="EC2Stop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="APIAutomation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,7 +123,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EC2Stop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APIAutomation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.APIAutomation" />
+        <item itemvalue="Python.06012025" />
+        <item itemvalue="Python.03012025" />
         <item itemvalue="Python.FileSaveinS3BucketCode1" />
         <item itemvalue="Python.s3save1" />
-        <item itemvalue="Python.DeleteIAMUser" />
-        <item itemvalue="Python.CreateIAMUser" />
-        <item itemvalue="Python.EC2Stop" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +202,19 @@
       <option name="presentableId" value="Default" />
       <updated>1735901178243</updated>
     </task>
+    <task id="LOCAL-00001" summary="boto3 Operation for AWS">
+      <option name="closed" value="true" />
+      <created>1735904138435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735904138435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="boto3 Operation for AWS" />
+    <option name="LAST_COMMIT_MESSAGE" value="boto3 Operation for AWS" />
   </component>
 </project>
